@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estrutura Base - jQuery</title>
+    <script src="jquery-3.7.1.min.js"></script>
+    <script>
+        //Ao carregar o documento, cria essa função abaixo
+        $(document).ready(function(){
+            //Selecionar e alterar o elemento img
+            //attr = atributo
+            //src, width, height, etc são atributos
+            $("img").attr("width", "300");
+            $("img").attr("title", "Alterando title via jQuery");
+        })
+
+    </script>
+</head>
+<body>
+    
+    <img src="/carlos.png" alt="Carlos" width="100" tittle="ProWay">
+
+</body>
+</html>

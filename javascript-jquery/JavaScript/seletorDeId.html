@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estrutura base</title>
+    <!-- JS -->
+    <script>
+
+        function exibirTexto(){
+            //Seleção via id é a mais usada
+            var campo = document.getElementsById("campo");//capturando o elementod e indice 2 que tem a class texto
+            alert(campo.value); //innerHTML para pegar o texto que está dentro da tag
+        }
+
+    </script>
+</head>
+<body>
+    <input type="text" id="campo">
+    <button onclick="exibirTexto()">Clique aqui</button>
+
+</body>
+</html>

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animate</title>
+
+    <style>
+        div{
+            width: 100px;
+            height: 80px;
+            background-color: green;
+        }
+    </style>
+    <script src="jquery-3.7.1.min.js"></script>
+    <script>
+        //Ao carregar o documento, cria essa função abaixo
+        $(document).ready(function(){
+            $("button").click(function(){
+                $("div").animate({
+                    width: "400px"
+                });
+            });
+        });
+
+    </script>
+</head>
+<body>
+    
+    <button>Clique aqui</button>
+
+    <div></div>
+
+</body>
+</html>
